@@ -1,0 +1,71 @@
+.spacer{
+    flex: 1 1 auto;
+}
+
+.mat-slider-horizontal {
+  width:100%;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+label {
+  font-weight:bold;
+  margin:1.5em 0;
+  display:block;
+}
+
+#page-padding {
+  padding: 0 1.5em 1.5em 1.5em;
+}
+.example-sidenav-fab-container {
+    width: 500px;
+    height: 70px;
+    
+  }
+
+  .content{
+    width: 500px;
+    height: 500px;
+  }
+
+  ul{
+      text-decoration: none;
+  }
+  .imgpost{
+      height: 200px;
+  }
+  .example-card{
+      width: 452px;
+  }
+  .sidenavst{
+    background-color: lightblue;
+  }
+  .example-sidenav-fab-container mat-sidenav {
+    max-width: 500px;
+  }
+  
+  .example-sidenav-fab-container .mat-sidenav-content,
+  .example-sidenav-fab-container mat-sidenav {
+    display: flex;
+    overflow: visible;
+  }
+  
+  .example-scrolling-content {
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .example-fab.mat-mini-fab {
+    position: relative;
+  }
+  
